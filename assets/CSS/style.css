@@ -426,7 +426,7 @@ section {
     .nav-list a::after {
         display: none;
     }
-    .navlist.active {
+    .nav-list.active {
         top: 100%;
     }
 }
@@ -437,5 +437,17 @@ section {
         --h2-font: 1.8rem;
         --p-font: 0.9rem;
         
+    }
+    .home {
+        height: 100vh;
+        width: 100%;
+        background: url(../img/IMG-MAIN2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: flex-start;
+        justify-items: end;
     }
 }
