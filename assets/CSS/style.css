@@ -431,7 +431,7 @@ section {
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 550px){
     :root {
         --big-font: 3.2rem;
         --h2-font: 1.8rem;
