@@ -401,8 +401,8 @@ section {
         background-position: center;
         position: relative;
         display: grid;
-        grid-template-columns: auto;
-        align-items:center; 
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center; 
         justify-items: end;
     }
     .about {
