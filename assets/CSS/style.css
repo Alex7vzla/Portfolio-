@@ -401,7 +401,7 @@ section {
         background-position: center;
         position: relative;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         align-items:center; 
         justify-items: end;
     }
