@@ -386,7 +386,25 @@ section {
     text-align: center;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 720px) {
+    :root {
+        --big-font: 3.2rem;
+        --h2-font: 1.8rem;
+        --p-font: 0.9rem;
+        
+    }
+    .home {
+        height: 100vh;
+        width: 100%;
+        background: url(../img/IMG-MAIN.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: flex-start;
+        justify-items: end;
+    }
     .about {
         grid-template-columns: 1fr;
     }
@@ -431,23 +449,6 @@ section {
     }
 }
 
-@media (max-width: 550px){
-    :root {
-        --big-font: 3.2rem;
-        --h2-font: 1.8rem;
-        --p-font: 0.9rem;
-        
-    }
-    .home {
-        height: 100vh;
-        width: 100%;
-        background: url(../img/IMG-MAIN.jpg);
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: flex-start;
-        justify-items: end;
-    }
-}
+
+    
+
