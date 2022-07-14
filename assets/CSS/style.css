@@ -207,7 +207,7 @@ section {
 
 .skills-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.4rem;
@@ -220,6 +220,7 @@ section {
     cursor: pointer;
     transition: all, .35s;
     border-radius: 30px;
+    text-align: center;
 }
 
 .box i {
@@ -228,11 +229,12 @@ section {
    margin-bottom: 18px;
 }
 
-.box h3 {
+.box h2 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: var(--second-text-color);
+    padding-top: 10px;
+    color: var(--other-color);
 }
 
 .box p {
@@ -331,7 +333,7 @@ section {
 
 .contact-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
     grid-gap: 2rem;
     align-items: center;
     text-align: center;
